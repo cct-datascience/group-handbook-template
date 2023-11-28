@@ -2,22 +2,42 @@ project:
   type: book
 
 book:
-  title: "group-handbook-template"
-  author: "Norah Jones"
+  title: "{{< var group_name >}} Handbook"
+  # cover-image: "cover.png"
+  search: true
+  repo-url: https://github.com/cct-datascience/group-handbook-template
+  repo-actions: [edit, issue]
+  author: 
+    - Professor Jones
+    - Student Scott
+    - Staff Member Mary
   date: "11/28/2023"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - href: code-of-conduct.qmd
+      text: Code of Conduct
+    - group-expectations.qmd
+    - onboarding.qmd
+    - offboarding.qmd
+    - part: Appendix
+      chapters: 
+        - href: contributing.qmd
+          text: "Editing This Book"
     - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    number-depth: 1
+    link-external-icon: true
+    link-external-newwindow: true
+    theme: 
+      light: flatly
+      dark: darkly
   pdf:
     documentclass: scrreprt
 
-editor: visual
-
+editor: 
+  markdown:
+    wrap: sentence

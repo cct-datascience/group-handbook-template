@@ -1,0 +1,10 @@
+# Offboarding
+
+Offboarding is important to our group because we want to get feedback and also not lose your data and stuff
+
+Steps to take:
+
+1.  Make sure all of your code is in repositories in the {{< var group_name >}} GitHub organization
+2.  Make sure each project has a README file explaining what it is, how to reproduce results, and includes metadata for any data collected (e.g. what do column names mean and what units are they in?)
+3.  Schedule an exit interview
+4.  More steps

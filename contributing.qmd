@@ -1,0 +1,6 @@
+# Contributing
+
+Detailed step-by-step instructions (with screenshots) on how to fork, clone, make a PR, etc. with RStudio and `usethis`.
+
+\
+You have a couple of options if you'd like to edit this book, but both of them require at minimum that you have a [GitHub](https://github.com/) account.If you have a simple edit to the text, you can click the.That will take you to a GitHub page where you can edit the text using [markdown syntax](https://quarto.org/docs/authoring/markdown-basics.html) to indicate formatting.If you have more complex changes to make, or want to take advantage of something like the markdown [Visual Editor](https://quarto.org/docs/visual-editor/) mode in RStudio, you'll need to fork and clone the GitHub repository.Don't worry if you don't know what any of that means---there are detailed instructions [here](#fork-and-clone).

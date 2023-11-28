@@ -1,0 +1,3 @@
+# {{< var group_name >}} Code of Conduct
+
+TODO: Use and credit someone else's COC and modify to link to UA-specific resources

@@ -1,9 +1,11 @@
-# Preface {.unnumbered}
+# Welcome! {.unnumbered}
 
-This is a Quarto book.
+Welcome to the handbook for the {{< var group_name >}}.
+This book contains ...
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## How was this book made?
 
-```{r}
-1 + 1
-```
+This book is created using [Quarto](https://quarto.org/), "An open-source scientific and technical publishing system".
+The files used to generate the web book you're looking at are housed on GitHub and are automatically rendered and deployed as this website!
+If you'd like to contribute and edit this book, a simple option is to click the "Edit This Page" button on any page of this book.
+More detailed instructions on how to contribute are in the [Appendix](#contributing).
