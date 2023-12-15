@@ -1,6 +1,33 @@
 # Contributing
 
-Detailed step-by-step instructions (with screenshots) on how to fork, clone, make a PR, etc. with RStudio and `usethis`.
+Prerequisites: 
+- Create an account on GitHub if you don't already have one.
+- Basic understanding of [markdown](https://quarto.org/docs/authoring/markdown-basics.html).
+- Optionally, knowledge of [Quarto](https://quarto.org/).
 
-\
-You have a couple of options if you'd like to edit this book, but both of them require at minimum that you have a [GitHub](https://github.com/) account.If you have a simple edit to the text, you can click the.That will take you to a GitHub page where you can edit the text using [markdown syntax](https://quarto.org/docs/authoring/markdown-basics.html) to indicate formatting.If you have more complex changes to make, or want to take advantage of something like the markdown [Visual Editor](https://quarto.org/docs/visual-editor/) mode in RStudio, you'll need to fork and clone the GitHub repository.Don't worry if you don't know what any of that means---there are detailed instructions [here](#fork-and-clone).
+### Suggesting a change
+
+To suggest a change, click the "Report an issue" link on any page or go to the [GitHub repository]({{< meta book.repo-url >}}) and open an issue.
+
+### Small edits
+
+To make an edit directly on GitHub, click the "{{< fa brands github >}} Edit this page" link on any page. This will open a page where you can make edits. When you are done, click the green "Commit changes..." button.  If you do not have the ability to push directly to the repo it may prompt you to create a fork and submit changes as a pull request.
+
+### More substantial edits or new sections
+
+To make more extensive edits or to add new sections, it's probably best if you fork and clone the GitHub repository for this book and work on it on your computer using either RStudio or VSCode where you can take advantage of the [visual markdown editor](https://quarto.org/docs/visual-editor/) for Quarto.
+
+If you are an R user, there are some helpful functions in the [`usethis` package](https://usethis.r-lib.org/index.html) that can help with this workflow.
+
+1. Use `usethis::create_from_github("{{< meta book.repo-url >}}")` to fork and clone the repository
+2. Use `usethis::pr_init("name-of-my-branch)` to create a new branch for your changes.
+3. Edit .qmd, .md, or .Rmd files.
+4. If you've created a new file, be sure to add it to one of the chapters in `_quarto.yml`.
+5. Preview your changes by running `quarto preview` in the terminal.
+6. Commit your changes with git.
+7. Push your changes to GitHub and open a pull request with `usethis::pr_push()`.
+8. Once the pull request is merged on GitHub, run `usethis::pr_finish()` to clean things up.
+
+::: callout-warning
+The GitHub action to deploy this book as a website does not have the ability to run any code! If you include any code chunks in your edits, you will need to render them locally before making your pull request by running `quarto render` in the terminal and commiting any changes to the `_freeze/` directory.
+:::
