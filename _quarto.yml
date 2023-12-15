@@ -1,6 +1,7 @@
 project:
   type: book
-
+execute: 
+  freeze: auto
 book:
   title: "{{< var group_name >}} Handbook"
   # cover-image: "cover.png"
