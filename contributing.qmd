@@ -1,6 +1,14 @@
-# Contributing
+---
+number-sections: false
+editor:
+  markdown:
+    canonical: false #visual editor mangles shortcodes in links
+---
+
+# Editing This Book {.unnumbered}
 
 Prerequisites: 
+
 - Create an account on GitHub if you don't already have one.
 - Basic understanding of [markdown](https://quarto.org/docs/authoring/markdown-basics.html).
 - Optionally, knowledge of [Quarto](https://quarto.org/).
@@ -19,15 +27,17 @@ To make more extensive edits or to add new sections, it's probably best if you f
 
 If you are an R user, there are some helpful functions in the [`usethis` package](https://usethis.r-lib.org/index.html) that can help with this workflow.
 
-1. Use `usethis::create_from_github("{{< meta book.repo-url >}}")` to fork and clone the repository
-2. Use `usethis::pr_init("name-of-my-branch)` to create a new branch for your changes.
-3. Edit .qmd, .md, or .Rmd files.
-4. If you've created a new file, be sure to add it to one of the chapters in `_quarto.yml`.
+1. Use `usethis::create_from_github("{{< meta book.repo-url >}}")` to fork and clone the repository.[^1]
+2. Use `usethis::pr_init("name-of-my-branch")` to create a new branch for your changes.
+3. Edit existing .qmd, .md, or .Rmd files or create new ones.
+4. If you've created a new file, be sure to add the path to it as a chapter in `_quarto.yml`.
 5. Preview your changes by running `quarto preview` in the terminal.
 6. Commit your changes with git.
-7. Push your changes to GitHub and open a pull request with `usethis::pr_push()`.
+7. Run `usethis::pr_push()` to push your changes and open a pull request on GitHub.
 8. Once the pull request is merged on GitHub, run `usethis::pr_finish()` to clean things up.
 
 ::: callout-warning
 The GitHub action to deploy this book as a website does not have the ability to run any code! If you include any code chunks in your edits, you will need to render them locally before making your pull request by running `quarto render` in the terminal and commiting any changes to the `_freeze/` directory.
 :::
+
+[^1]: If you haven't set up git and GitHub on your computer, you'll get an (hopefully informative) error.  `usethis::git_sitrep()` can help you troubleshoot and we also recommend reading/searching [happygitwithr.com](https://happygitwithr.com/). You only need to run this the first time you contribute to the book.  For subsequent contributions, just open the RStudio project and start with step 2.

@@ -15,15 +15,12 @@ book:
   date: "11/28/2023"
   chapters:
     - index.qmd
+    - contributing.qmd
     - href: code-of-conduct.qmd
       text: Code of Conduct
     - group-expectations.qmd
     - onboarding.qmd
     - offboarding.qmd
-    - part: Appendix
-      chapters: 
-        - href: contributing.qmd
-          text: "Editing This Book"
     - references.qmd
 
 bibliography: references.bib
