@@ -1,0 +1,13 @@
+# Authorship
+
+Have a conversation with your group about guidelines and expectations around authorship and replace the text here.
+Some ideas of things to discuss:
+
+-   When/how often should conversations about happen?
+
+-   Read and discuss the [CRediT](https://doi.org/10.1002/leap.1210) and [MeRIT](https://doi.org/10.1038/s41467-023-37039-1) frameworks.
+
+-   What potential conflicts are there regarding authorship and how will we manage them?
+    (e.g. requirements of publishers vs. collaborator expectations)
+
+-   Under what circumstances, if any, should authors be removed?
