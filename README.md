@@ -19,3 +19,10 @@ I'll turn this into instructions later, but here's a running list of things you'
 -   `cover.png` and `cover-image` in `_quarto.yml` if you want a lab logo.
 
 -   `repo_url` in `_quarto.yml`
+
+## To publish
+
+You only have to do this once.
+
+Run `quarto publish gh-pages` in the terminal to create `_publish.yml`.
+Commit and push `_publish.yml` and from then on the book should automatically re-render when changes are pushed to the GitHub repo.
