@@ -8,6 +8,12 @@
 
 This is a work-in-progress, but will eventually be a template repo that contains a skeleton of a lab group handbook (much like the one described by [Tendler et al., 2023](https://doi.org/10.7554/eLife.88853)).
 
+## Inspiration
+
+-   Zipkin lab policies: <https://github.com/zipkinlab/Policies/tree/master>
+
+-   Bahlai lab policies: <https://github.com/BahlaiLab/Policies>
+
 ## Things to edit
 
 I'll turn this into instructions later, but here's a running list of things you'll need to edit after using this template:
