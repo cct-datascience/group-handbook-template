@@ -1,3 +1,60 @@
 # {{< var group_name >}} Code of Conduct
 
-TODO: Use and credit someone else's COC and modify to link to UA-specific resources
+::: callout-important
+## Group Edit
+
+As a lab group, read, discuss, and edit the example code of conduct below.
+This example is modified from the Bahlai Lab at Kent State.
+Be sure to credit any sources you are inspired by!
+:::
+
+# Code of Conduct
+
+Science is hard, and the work of making sure science isn't harder than it needs to be is on all of us.
+We create our culture, and in the {{< var group_name >}}, our culture is inclusive.
+
+We value the participation of every member of our community and want to ensure an that every lab member and collaborator has a positive, educational experience unhindered by unnecessary challenges caused by non-inclusive behavior.
+Accordingly, everyone who participates in any {{< var group_name >}} project is expected to show respect and courtesy to other community members at all times.
+
+{{< var pi_name >}} as head of the {{< var group_name >}}, and all lab members, are dedicated to a ***harassment and discrimination-free experience for everyone.*** Discrimination or harassment based on racial or ethnic background, citizenship status, religion (or lack thereof), political affiliation, gender identity/expression, sexual orientation, dis/ability status, appearance or body size will not be tolerated.
+**We do not tolerate harassment or discrimination by and/or of members of our community in any form**.
+
+We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.
+
+To make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.
+
+-   All communication—online and in person—should be appropriate for a professional audience including people of many different backgrounds.
+    Sexual or discriminatory language and imagery is not appropriate at any time.
+
+-   Be kind to others.
+    Criticism is essential in science, but it must be constructive if we're going to move it forward in a supportive, inclusive way.
+
+-   Behave professionally.
+    Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate, but even more generally, treat others with respect.
+    Give colleagues your attention and courtesy.
+
+-   Please make an effort to make an inclusive environment for everyone.
+    Give everyone a chance to talk and an opportunity to contribute.
+    Don't dominate, talk over, or try to compete with your colleagues.
+    Lift up and make space.
+
+-   ***Be aware that your actions can be hurtful to others or contribute to a negative environment even if you had no intent of harm.*** We all make missteps.
+    That's ok!
+    Listen.
+    Offer a genuine apology.
+    Commit to learning and doing better.
+
+-   A SPECIAL NOTE: Your work in this lab will be publicly available and recorded permanently on github.
+    Please conduct yourself accordingly.
+
+Unacceptable behavior includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of discussions, inappropriate physical contact, and unwelcome sexual attention.
+
+***Participants asked to stop any harassing or discriminatory behavior are expected to comply immediately.***
+
+Members of the community who violate these rules—no matter how much they have contributed to the {{< var group_name >}}, or how specialized their skill set—will be approached by {{< var pi_name >}}.
+If inappropriate behavior persists after a discussion with {{< var pi_name >}}, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona's [Office of Institutional Equity](https://equity.arizona.edu/)
+
+**To report an issue** please contact [{{< var pi_name >}}](mailto:{{< var pi_contact >}}).
+All communication will be treated as confidential. If you feel you cannot contact {{< var pi_name >}}, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
+
+> The material in this code of conduct is derived from "[Bahlai Lab Code of Conduct](https://github.com/BahlaiLab/Policies/blob/master/Code_of_conduct.md)" by Dr. Christie Bahlai, used under CC BY 4.0.
