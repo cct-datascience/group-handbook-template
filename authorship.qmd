@@ -1,5 +1,8 @@
 # Authorship
 
+::: callout-important
+## Group Edit
+
 Have a conversation with your group about guidelines and expectations around authorship and replace the text here.
 Some ideas of things to discuss:
 
@@ -11,3 +14,4 @@ Some ideas of things to discuss:
     (e.g. requirements of publishers vs. collaborator expectations)
 
 -   Under what circumstances, if any, should authors be removed?
+:::

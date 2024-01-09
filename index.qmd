@@ -1,11 +1,33 @@
 # Welcome! {.unnumbered}
 
-Welcome to the handbook for the {{< var group_name >}}.
-This book contains ...
+::: callout-note
+Note to lab members: this document is a work in progress and may change.
+It is your responsibility to be familiar with the content, so you should review these policies regularly.
+:::
 
-## How was this book made?
+Welcome to the {{< var group_name >}}.
+In this lab, we study ...
 
-This book is created using [Quarto](https://quarto.org/), "An open-source scientific and technical publishing system".
-The files used to generate the web book you're looking at are housed on GitHub and are automatically rendered and deployed as this website!
-If you'd like to contribute and edit this book, a simple option is to click the "Edit This Page" button on any page of this book.
-More detailed instructions on how to contribute are in the [Appendix](#contributing).
+::: callout-important
+## Edit This Section
+
+Many lab group handbooks start with a short description of what the lab works on
+:::
+
+## Lab Philosophy
+
+::: callout-important
+## Edit This Section
+
+This is a good place to put any information about overall lab philosophies.
+For example, thoughts about open science, collaboration, publishing, and the role of science in the world
+:::
+
+## Mentoring Philosophy
+
+::: callout-important
+## Edit This Section
+
+This may also be a good place to outline your mentoring philosophy as a PI.
+If this gets too long, it could instead go in a section along with mentee expectations
+:::
