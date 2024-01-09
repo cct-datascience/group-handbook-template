@@ -2,7 +2,7 @@
 number-sections: false
 editor:
   markdown:
-    canonical: false #visual editor mangles shortcodes in links
+    canonical: false #visual editor mangles shortcodes in links, but fixed in upcoming version https://github.com/quarto-dev/quarto/issues/337#issuecomment-1873437524
 ---
 
 # Editing This Book {.unnumbered}
