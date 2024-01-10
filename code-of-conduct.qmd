@@ -8,8 +8,6 @@ This example is modified from the Bahlai Lab at Kent State.
 Be sure to credit any sources you are inspired by!
 :::
 
-# Code of Conduct
-
 Science is hard, and the work of making sure science isn't harder than it needs to be is on all of us.
 We create our culture, and in the {{< var group_name >}}, our culture is inclusive.
 
@@ -56,5 +54,16 @@ If inappropriate behavior persists after a discussion with {{< var pi_name >}}, 
 
 **To report an issue** please contact [{{< var pi_name >}}](mailto:{{< var pi_contact >}}).
 All communication will be treated as confidential. If you feel you cannot contact {{< var pi_name >}}, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
+
+## University of Arizona Policies
+
+Additionally, The University of Arizona has specific policies related to conduct.
+See the [UA Nondiscrimination and anti-harrassment policy](https://policy.arizona.edu/human-resources/nondiscrimination-and-anti-harassment-policy).
+
+All employees students, and designated campus colleagues are required to take the [Preventing Harassment and Discrimination training](https://equity.arizona.edu/training/online-training) and follow review, understand, and follow:
+
+-   The University of Arizona ethics and conduct guidelines: [policy.arizona.edu/ethics-and-conduct](https://policy.arizona.edu/ethics-and-conduct)
+
+-   The University of Arizona Nondiscrimination and anti-harassment policy: [equity.arizona.edu/title-ix](https://equity.arizona.edu/title-ix)
 
 > The material in this code of conduct is derived from "[Bahlai Lab Code of Conduct](https://github.com/BahlaiLab/Policies/blob/master/Code_of_conduct.md)" by Dr. Christie Bahlai, used under CC BY 4.0.
