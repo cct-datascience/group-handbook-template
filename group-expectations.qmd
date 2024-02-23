@@ -1,3 +1,57 @@
 # Group Expectations
 
-group expectations go here
+Beyond abiding by the [code of conduct](code-of-conduct.qmd), we expect all group members to ...
+
+::: callout-important
+## Group Edit
+
+Some discussion topics to get you started:
+
+-   Expected work hours
+
+    -   Should group members be expected to be available evenings and weekends?
+
+    -   Should group members be expected to be in the lab/office certain hours or days of the week?
+
+-   Communication expectations
+
+    -   How quickly should group members be expected to respond to emails/slack messages?
+
+    -   Is there a preferred method of communication for the group (e.g. email, Slack, carrier pigeon)?
+
+-   Attendance at meetings
+
+    -   Are there certain meetings or seminars everyone is expected to attend?
+:::
+
+## Mentee expectations
+
+::: callout-important
+## Group Edit
+
+Some discussion topics to get you started:
+
+-   When should mentees ask questions?
+    Who should they ask first?
+
+-   Is it the mentee's responsibility to schedule regular meetings with mentors?
+    If so, how often should these be?
+
+-   
+:::
+
+## Mentor/PI expectations
+
+::: callout-important
+## Group Edit
+
+Some discussion topics to get you started:
+
+-   How often and in what way are mentors expected to check in with mentees?
+
+-   Is it the mentor's responsibility to schedule regular meetings with mentees?
+
+-   How available are mentors expected to be and in what format (email, face-to-face, zoom, slack, etc.)?
+
+-   
+:::

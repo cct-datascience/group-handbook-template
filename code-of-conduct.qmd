@@ -53,7 +53,8 @@ Members of the community who violate these rules—no matter how much they have 
 If inappropriate behavior persists after a discussion with {{< var pi_name >}}, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona's [Office of Institutional Equity](https://equity.arizona.edu/)
 
 **To report an issue** please contact [{{< var pi_name >}}](mailto:{{< var pi_contact >}}).
-All communication will be treated as confidential. If you feel you cannot contact {{< var pi_name >}}, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
+All communication will be treated as confidential.
+If you feel you cannot contact {{< var pi_name >}}, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
 
 ## University of Arizona Policies
 

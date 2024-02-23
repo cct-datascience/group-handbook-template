@@ -26,6 +26,9 @@ I'll turn this into instructions later, but here's a running list of things you'
 
 -   `repo_url` in `_quarto.yml`
 
+-   Red callout boxes titled "Group Edit" hold suggestions for what content to include on that page/section.
+    These should be deleted or commented out once the edits happen.
+
 ## To publish
 
 You only have to do this once.

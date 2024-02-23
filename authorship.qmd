@@ -14,4 +14,6 @@ Some ideas of things to discuss:
     (e.g. requirements of publishers vs. collaborator expectations)
 
 -   Under what circumstances, if any, should authors be removed?
+
+-   Are there any circumstances where {{< var pi_name >}} wouldn't be an author on a student/mentee paper?
 :::

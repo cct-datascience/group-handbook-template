@@ -1,5 +1,28 @@
 # Onboarding
 
+::: callout-important
+## Group Edit
+
+This is most easily edited by someone actively going through the onboarding process (or someone who recently joined the lab group).
+That being said, here are some discussion questions to get you started:
+
+-   How long is "onboarding"?
+    When can you say it is over and someone has completed it?
+
+-   What do you feel was most difficult when you first joined the lab?
+    What tips would you want to pass along to someone on their first day, first week, etc.
+
+-   Who are the people to talk to in your department/college who hold the knowledge a newcomer might need to get settled in?
+    E.g. who does payroll, who can get you a spare monitor and keyboard, who can get you key card access, etc.
+
+-   What are good ways to get to know people (personally and professionally) in your lab group/department/school/college?
+:::
+
+::: callout-note
+We expect this checklist to be constantly evolving and encourage you to edit it as *part of onboarding*.
+See [Editing This Book](contributing.qmd).
+:::
+
 ## First day
 
 1.  Find your desk

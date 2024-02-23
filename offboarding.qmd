@@ -1,5 +1,28 @@
 # Offboarding
 
+::: callout-important
+## Group Edit
+
+This may be difficult to finalize until someone goes through the offboarding process and takes thorough notes (ideally by [editing](contributing.qmd) this page).
+Here are some discussion topics to get you started though:
+
+-   What are the group expectations for what to do with unpublished data collected during your time in the lab when you leave?
+
+-   What about code used to analyze data?
+    Where should it be stored and what are the expectations around reproducibility/usability of such code?
+
+-   What kinds of keys (physical or otherwise) or passwords might someone need to pass on?
+
+-   What kinds of shared drives does the lab group use?
+    Do you need to explicitly transfer ownership of documents on any of them?
+
+-   Are there official university or department offboarding steps to take?
+    E.g. something mandated by HR or the graduate school like an exit interview?
+
+-   What is the timeline for all of this?
+    Don't wait until the last week of work to complete all these tasks!
+:::
+
 Offboarding is important to our group because we want to get feedback and also not lose your data and stuff
 
 Steps to take:
