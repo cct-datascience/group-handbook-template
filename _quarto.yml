@@ -9,9 +9,10 @@ book:
   repo-url: https://github.com/cct-datascience/group-handbook-template
   repo-actions: [edit, issue]
   author: 
-    - Professor Jones
-    - Student Scott
-    - Staff Member Mary
+    - name: Jim Jones
+      orcid: 0000-0000-0000-0000
+    - name: Student Scott
+    - name: Staff Member Mary
   date: "11/28/2023"
   chapters:
     - index.qmd
@@ -34,8 +35,6 @@ format:
     theme: 
       light: flatly
       dark: darkly
-  pdf:
-    documentclass: scrreprt
 
 editor: 
   markdown:
