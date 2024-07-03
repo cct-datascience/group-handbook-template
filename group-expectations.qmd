@@ -25,7 +25,8 @@ Some discussion topics to get you started:
 
 -   What roles are there in your group that may have different expectations?
 
-    -   E.g. undergraduates, postdocs, staff
+    -   Below, roles are split into "mentor" and "mentee", but maybe there are actually more roles in your lab
+    -   E.g. undergraduate, grad student, postdoc, staff, etc.
 :::
 
 ## Mentee expectations

@@ -9,7 +9,7 @@ editor:
 
 Prerequisites:
 
--   Create an account on GitHub if you don't already have one.
+-   Create an account on [GitHub](https://github.com/) if you don't already have one.
 -   Basic understanding of [markdown](https://quarto.org/docs/authoring/markdown-basics.html).
 -   Optionally, knowledge of [Quarto](https://quarto.org/).
 
@@ -23,7 +23,7 @@ To make an edit directly on GitHub, click the "{{< fa brands github >}} Edit thi
 This will open a page where you can make edits.
 When you are done, click the green "Commit changes..." button.
 If you do not have the ability to push directly to the GitHub repository it may prompt you to create a fork and submit changes as a pull request.
-Your edits won't be "live" until someone (such as {{< var pi_name >}}) merges these changes.
+Your edits won't be "live" until someone (such as **PI_NAME**) merges these changes.
 Don't worry if you don't know what "fork" and "pull request" mean yet—you should still be able to make edits this way!
 
 ### More substantial edits or new sections

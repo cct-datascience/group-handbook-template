@@ -3,19 +3,17 @@ project:
 execute: 
   freeze: auto
 book:
-  title: "{{< var group_name >}} Handbook"
-  # cover-image: "cover.png"
+  title: "GROUP_NAME Handbook"
   search: true
   repo-url: https://github.com/cct-datascience/group-handbook-template
   repo-actions: [edit, issue]
   author: 
-    - name: Jim Jones
+    - name: PI_NAME
       orcid: 0000-0000-0000-0000
-    - name: Student Scott
-    - name: Staff Member Mary
+    #add all contributors as additional authors
   date: "11/28/2023"
   chapters:
-    - index.qmd
+    - index.qmd #the landing page *must* be called 'index.qmd'
     - contributing.qmd
     - href: code-of-conduct.qmd
       text: "Code of Conduct"
@@ -31,7 +29,6 @@ bibliography: references.bib
 format:
   html:
     number-depth: 1
-    link-external-icon: true
     link-external-newwindow: true
     theme: 
       light: flatly

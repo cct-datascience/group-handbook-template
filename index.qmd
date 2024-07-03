@@ -1,3 +1,5 @@
+<!-- NOTE: do not re-name this file!  It has to be called index.qmd -->
+
 # Welcome! {.unnumbered}
 
 ::: callout-note
@@ -5,7 +7,7 @@ Note to lab members: this document is a work in progress and may change.
 It is your responsibility to be familiar with the content, so you should review these policies regularly.
 :::
 
-Welcome to the {{< var group_name >}}.
+Welcome to the GROUP_NAME.
 In this lab, we study ...
 
 ::: callout-important
