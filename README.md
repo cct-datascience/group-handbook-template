@@ -21,10 +21,17 @@ This is a work-in-progress, but will eventually be a template repo that contains
 
 ## How to use this template
 
-1.  Click the green "Use this template" button to create a copy in your own GitHub organization (or personal account)
-2.  Edit the `_quarto.yml` configuration file to customize it to your group
-3.  Edit the `.qmd` files to customize it to your group
-4.  Publish to GitHub Pages
+(These instructions are a WIP and will eventually link to more detailed tutorials for each step)
+
+1.  [Get started with Quarto](https://quarto.org/docs/get-started/)
+2.  Click the green "Use this template" button on this page to create a copy in your own GitHub organization (or personal account)
+3.  Clone your new repository to your computer (e.g. by [creating a new RStudio project](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#creating-a-new-project-based-on-a-remote-git-or-subversion-repository))
+4.  Run `quarto preview` in the terminal to get a live preview of your book
+5.  Edit the `_quarto.yml` configuration file to customize it to your group (see below)
+6.  Edit the `.qmd` files to customize it to your group (see below)
+7.  Delete this instructions from your `README.md`
+8.  Commit your changes and push to GitHub
+9.  Publish to GitHub Pages (see below)
 
 ### Things to edit
 
