@@ -21,13 +21,17 @@ Here are some discussion topics to get you started though:
 
 -   What is the timeline for all of this?
     Don't wait until the last week of work to complete all these tasks!
+
+-   Why is offboarding important to this group?
+    To get feedback on mentoring?
+    To make sure there is continuity of projects?
 :::
 
-Offboarding is important to our group because we want to get feedback and also not lose your data and stuff
+Offboarding is important to our group because ...
 
 Steps to take:
 
-1.  Make sure all of your code is in repositories in the {{< var group_name >}} GitHub organization
+1.  Make sure all of your code is in repositories in the group's GitHub organization
 2.  Make sure each project has a README file explaining what it is, how to reproduce results, and includes metadata for any data collected (e.g. what do column names mean and what units are they in?)
 3.  Schedule an exit interview
 4.  More steps...

@@ -15,5 +15,5 @@ Some ideas of things to discuss:
 
 -   Under what circumstances, if any, should authors be removed from a project?
 
--   Are there any circumstances where {{< var pi_name >}} wouldn't be an author on a student/mentee paper?
+-   Are there any circumstances where PI_NAME wouldn't be an author on a student/mentee paper?
 :::

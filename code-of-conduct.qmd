@@ -1,4 +1,4 @@
-# {{< var group_name >}} Code of Conduct
+# GROUP_NAME Code of Conduct
 
 ::: callout-important
 ## Group Edit
@@ -9,12 +9,12 @@ Be sure to credit any sources you are inspired by!
 :::
 
 Science is hard, and the work of making sure science isn't harder than it needs to be is on all of us.
-We create our culture, and in the {{< var group_name >}}, our culture is inclusive.
+We create our culture, and in the GROUP_NAME, our culture is inclusive.
 
 We value the participation of every member of our community and want to ensure an that every lab member and collaborator has a positive, educational experience unhindered by unnecessary challenges caused by non-inclusive behavior.
-Accordingly, everyone who participates in any {{< var group_name >}} project is expected to show respect and courtesy to other community members at all times.
+Accordingly, everyone who participates in any GROUP_NAME project is expected to show respect and courtesy to other community members at all times.
 
-{{< var pi_name >}} as head of the {{< var group_name >}}, and all lab members, are dedicated to a ***harassment and discrimination-free experience for everyone.*** Discrimination or harassment based on racial or ethnic background, citizenship status, religion (or lack thereof), political affiliation, gender identity/expression, sexual orientation, dis/ability status, appearance or body size will not be tolerated.
+PI_NAME as head of the GROUP_NAME, and all lab members, are dedicated to a ***harassment and discrimination-free experience for everyone.*** Discrimination or harassment based on racial or ethnic background, citizenship status, religion (or lack thereof), political affiliation, gender identity/expression, sexual orientation, dis/ability status, appearance or body size will not be tolerated.
 **We do not tolerate harassment or discrimination by and/or of members of our community in any form**.
 
 We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.
@@ -49,12 +49,12 @@ Unacceptable behavior includes offensive verbal comments related to gender, sexu
 
 ***Participants asked to stop any harassing or discriminatory behavior are expected to comply immediately.***
 
-Members of the community who violate these rules—no matter how much they have contributed to the {{< var group_name >}}, or how specialized their skill set—will be approached by {{< var pi_name >}}.
-If inappropriate behavior persists after a discussion with {{< var pi_name >}}, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona's [Office of Institutional Equity](https://equity.arizona.edu/)
+Members of the community who violate these rules—no matter how much they have contributed to the GROUP_NAME, or how specialized their skill set—will be approached by PI_NAME.
+If inappropriate behavior persists after a discussion with PI_NAME, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona's [Office of Institutional Equity](https://equity.arizona.edu/)
 
-**To report an issue** please contact [{{< var pi_name >}}](mailto:{{< var pi_contact >}}).
+**To report an issue** please contact [PI_NAME](mailto:PI_EMAIL).
 All communication will be treated as confidential.
-If you feel you cannot contact {{< var pi_name >}}, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
+If you feel you cannot contact PI_NAME, contact the [Office of Institutional Equity](https://equity.arizona.edu/reporting)
 
 ## University of Arizona Policies
 
