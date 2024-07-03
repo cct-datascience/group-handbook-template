@@ -14,22 +14,34 @@ This is a work-in-progress, but will eventually be a template repo that contains
 
 -   Bahlai lab policies: <https://github.com/BahlaiLab/Policies>
 
-## Things to edit
+-   Tendler, B.C., Welland, M., Miller, K.L., The WIN Handbook Team, 2023.
+    Why every lab needs a handbook.
+    eLife 12, e88853.
+    <https://doi.org/10.7554/eLife.88853>
 
-I'll turn this into instructions later, but here's a running list of things you'll need to edit after using this template:
+## How to use this template
 
--   Everything in `_variables.yml`
+1.  Click the green "Use this template" button to create a copy in your own GitHub organization (or personal account)
+2.  Edit the `_quarto.yml` configuration file to customize it to your group
+3.  Edit the `.qmd` files to customize it to your group
+4.  Publish to GitHub Pages
 
--   `author:` in `_quarto.yml` (can't do lists with shortcodes)
+### Things to edit
 
--   `cover.png` and `cover-image` in `_quarto.yml` if you want a lab logo.
+-   Do a find and replace everywhere (cmd + shift + F in RStudio) for the following: "GROUP_NAME", "PI_NAME", and "PI_EMAIL".
 
--   `repo_url` in `_quarto.yml`
+-   Edit the `repo_url:` key in `_quarto.yml` to be the URL to *your* copy of this template on *your* GitHub organization or account
+
+-   Edit the authors information in `_quarto.yml` (e.g. name and ORCID)
+
+-   Potentially add, remove, or re-order chapters by editing the `chapters:` key in `_quarto.yml`
 
 -   Red callout boxes titled "Group Edit" hold suggestions for what content to include on that page/section.
-    These should be deleted or commented out once the edits happen.
+    These should be deleted once the edits happen.
 
-## To publish
+-   **All text** in the `.qmd` documents is boilerplate or example text and intended to be edited to some extent to customize it for your group.
+
+### To publish
 
 You only have to do this once.
 
