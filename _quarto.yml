@@ -13,7 +13,7 @@ book:
     #add all contributors as additional authors
   date: "11/28/2023"
   chapters:
-    - index.qmd #the landing page *must* be called 'index.qmd'
+    - index.qmd #the landing page file *must* be called 'index.qmd'
     - contributing.qmd
     - href: code-of-conduct.qmd
       text: "Code of Conduct"

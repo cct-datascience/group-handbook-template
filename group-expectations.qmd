@@ -57,6 +57,4 @@ Some discussion topics to get you started:
 -   Is it the mentor's responsibility to schedule regular meetings with mentees?
 
 -   How available are mentors expected to be and in what format (email, face-to-face, zoom, slack, etc.)?
-
--   
 :::

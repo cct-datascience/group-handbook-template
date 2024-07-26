@@ -2,11 +2,22 @@
 
 <!-- badges: start -->
 
-[![Project Status: Concept -- Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 <!-- badges: end -->
 
-This is a work-in-progress, but will eventually be a template repo that contains a skeleton of a lab group handbook (much like the one described by [Tendler et al., 2023](https://doi.org/10.7554/eLife.88853)).
+This is a work-in-progress template for a lab group handbook much like the one described by [Tendler et al., 2023](https://doi.org/10.7554/eLife.88853).
+Some of the content is University of Arizona specific (e.g. links in the code of conduct), but it is intended for use by anyone with any kind of lab group (or other group) to adopt!
+
+## Features
+
+-   Write content as Quarto documents (.qmd), markdown (.md), RMarkdown (.Rmd), or even jupyter notebooks (.ipynb)
+-   Built-in search bar
+-   Each page has a link to create a GitHub pull request to make an edit or to open an issue suggesting edits
+-   Automatic deployment to GitHub pages with GitHub actions
+-   A "research best practices" page with our group's suggestions for creating reproducible research compendia
+-   A Code of Conduct with links to University of Arizona policies and reporting forms
+-   All the features of [Quarto](https://quarto.org/)!
 
 ## Inspiration
 
@@ -21,17 +32,16 @@ This is a work-in-progress, but will eventually be a template repo that contains
 
 ## How to use this template
 
-(These instructions are a WIP and will eventually link to more detailed tutorials for each step)
+1.  [Use this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)—click the green "Use this template" button on this page to create a copy in your own GitHub organization (or personal account)
+2.  Clone your new repository to your computer (e.g. by [creating a new RStudio project](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#creating-a-new-project-based-on-a-remote-git-or-subversion-repository))
+3.  [Preview your book](https://quarto.org/docs/books/#book-preview) by running `quarto preview` in the terminal
+4.  Edit the `_quarto.yml` configuration file to customize it to your group (see below)
+5.  Edit the `.qmd` files to customize it to your group (see below)
+6.  Delete these instructions from your `README.md`
+7.  Commit your changes and push to GitHub
+8.  Publish to GitHub Pages by running `quarto publish gh-pages` (see below)
 
-1.  [Get started with Quarto](https://quarto.org/docs/get-started/)
-2.  Click the green "Use this template" button on this page to create a copy in your own GitHub organization (or personal account)
-3.  Clone your new repository to your computer (e.g. by [creating a new RStudio project](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#creating-a-new-project-based-on-a-remote-git-or-subversion-repository))
-4.  Run `quarto preview` in the terminal to get a live preview of your book
-5.  Edit the `_quarto.yml` configuration file to customize it to your group (see below)
-6.  Edit the `.qmd` files to customize it to your group (see below)
-7.  Delete this instructions from your `README.md`
-8.  Commit your changes and push to GitHub
-9.  Publish to GitHub Pages (see below)
+See [Get started with Quarto](https://quarto.org/docs/get-started/) and the [Quarto book documentation](https://quarto.org/docs/books/) for more on customizing this template.
 
 ### Things to edit
 
@@ -53,4 +63,5 @@ This is a work-in-progress, but will eventually be a template repo that contains
 You only have to do this once.
 
 Run `quarto publish gh-pages` in the terminal to create `_publish.yml`.
-Commit and push `_publish.yml` and from then on the book should automatically re-render when changes are pushed to the GitHub repo.
+Commit and push `_publish.yml` to GitHub.
+After this, the GitHub action should automatically re-render and deploy your book when changes are pushed to the main branch on GitHub.
