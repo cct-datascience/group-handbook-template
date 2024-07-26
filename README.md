@@ -37,7 +37,7 @@ Some of the content is University of Arizona specific (e.g. links in the code of
 3.  [Preview your book](https://quarto.org/docs/books/#book-preview) by running `quarto preview` in the terminal
 4.  Edit the `_quarto.yml` configuration file to customize it to your group (see below)
 5.  Edit the `.qmd` files to customize it to your group (see below)
-6.  Delete these instructions from your `README.md`
+6.  Delete these instructions from your `README.md` (and please credit this template!)
 7.  Commit your changes and push to GitHub
 8.  Publish to GitHub Pages by running `quarto publish gh-pages` (see below)
 
