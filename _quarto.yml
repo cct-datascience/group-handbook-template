@@ -7,6 +7,7 @@ book:
   search: true
   repo-url: https://github.com/cct-datascience/group-handbook-template
   repo-actions: [edit, issue]
+  page-footer: '© 2024 by PI_NAME <br> This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}}'
   author: 
     - name: PI_NAME
       orcid: 0000-0000-0000-0000
