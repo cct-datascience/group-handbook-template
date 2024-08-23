@@ -44,7 +44,7 @@ Once the project is complete (e.g. a paper is in review) it should also contain 
 The `data/` folder should contain the **raw** data for the project.
 **This raw data should not be edited by hand**.
 Files in the `data/` folder should be considered (or actually made) ***read-only!*** This folder might contain separate `data_raw/` and `data_cleaned/` folders if there is a need to save intermediate data to disk, in which case the files in `data_raw/` should be read-only.
-The `data/` folder is also a good place for metadata—information about how to interpet the data and how/when/where it was collected (e.g. what the column names in `my_raw_data.csv` mean and what units the values are measured in).
+The `data/` folder is also a good place for metadata—information about how to interpret the data and how/when/where it was collected (e.g. what the column names in `my_raw_data.csv` mean and what units the values are measured in).
 
 ::: callout-important
 ## Group Edit

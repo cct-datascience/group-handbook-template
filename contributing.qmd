@@ -43,7 +43,7 @@ If you are an R user, there are some helpful functions in the [`usethis` package
 
 ::: callout-warning
 The GitHub action to deploy this book as a website does not have the ability to run any code!
-If you include any code chunks in your edits, you will need to render them locally before making your pull request by running `quarto render` in the terminal and commiting any changes to the `_freeze/` directory.
+If you include any code chunks in your edits, you will need to render them locally before making your pull request by running `quarto render` in the terminal and committing any changes to the `_freeze/` directory.
 :::
 
 [^contributing-1]: If you haven't set up git and GitHub on your computer, you'll get an (hopefully informative) error.
