@@ -1,7 +1,9 @@
 project:
   type: book
+
 execute: 
-  freeze: auto
+  freeze: auto #only important if your book includes executed code
+  
 book:
   title: "GROUP_NAME Handbook"
   search: true
@@ -12,12 +14,12 @@ book:
     - name: PI_NAME
       orcid: 0000-0000-0000-0000
     #add all contributors as additional authors
-  date: "11/28/2023"
+  date: today #updates date published based on last time it was edited
   chapters:
     - index.qmd #the landing page file *must* be called 'index.qmd'
     - contributing.qmd
     - href: code-of-conduct.qmd
-      text: "Code of Conduct"
+      text: "Code of Conduct" # A different title for the TOC than on the page itself
     - group-expectations.qmd
     - onboarding.qmd
     - offboarding.qmd
@@ -31,10 +33,10 @@ format:
   html:
     number-depth: 1
     link-external-newwindow: true
-    theme: 
+    theme: #bootswatch themes.  For other options check out https://bootswatch.com/
       light: flatly
       dark: darkly
 
 editor: 
   markdown:
-    wrap: sentence
+    wrap: sentence #Forces each sentence to be on its own line in source markdown, doesn't affect how it is rendered
