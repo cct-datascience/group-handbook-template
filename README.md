@@ -58,10 +58,15 @@ See [Get started with Quarto](https://quarto.org/docs/get-started/) and the [Qua
 
 -   **All text** in the `.qmd` documents is boilerplate or example text and intended to be edited to some extent to customize it for your group.
 
+### To preview
+
+In the terminal run `quarto preview` and it should open a live preview of your book in a browser window. 
+When you make changes and save them, this preview will update.
+
 ### To publish
 
 You only have to do this once.
 
-Run `quarto publish gh-pages` in the terminal to create `_publish.yml`.
-Commit and push `_publish.yml` to GitHub.
-After this, the GitHub action should automatically re-render and deploy your book when changes are pushed to the main branch on GitHub.
+In the terminal, stop the `quarto preview` process if it is running, run `quarto render` and then `quarto publish gh-pages`. 
+When this is successful it should open up your book in your web browser.
+After this, the GitHub action included in `.github/` should automatically re-render and deploy your book when changes are pushed to the main branch on GitHub.
