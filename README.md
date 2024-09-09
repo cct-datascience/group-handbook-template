@@ -25,7 +25,7 @@ Some of the content is University of Arizona specific (e.g. links in the code of
 I ran a workshop on using this template at University of Arizona.
 You can watch the [video](https://img.youtube.com/vi/ad-1P11O5a4) or check out the [slides](https://cct-datascience.quarto.pub/creating-a-lab-group-handbook-with-quarto/#/title-slide).
 
-[![](https://img.youtube.com/vi/ad-1P11O5a4/0.jpg){fig-alt="Title slide reading \"Creating a Lab Group Handbook with Quarto / Eric R. Scott / 2024-08-28\"" fig-align="center"}](https://youtu.be/ad-1P11O5a4?si=lQh9TwT6ccMDfT6t)
+[![Title slide reading "Creating a Lab Group Handbook with Quarto / Eric R. Scott / 2024-08-28](https://img.youtube.com/vi/ad-1P11O5a4/0.jpg)](https://youtu.be/ad-1P11O5a4?si=lQh9TwT6ccMDfT6t)
 
 ## Inspiration
 
