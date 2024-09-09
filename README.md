@@ -1,4 +1,4 @@
-# group-handbook-template
+# Lab Group Handbook Template
 
 <!-- badges: start -->
 
@@ -6,7 +6,7 @@
 
 <!-- badges: end -->
 
-This repo provides a template for a wiki-like lab group handbook built with Quarto.
+This repo provides a template for a wiki-like lab group handbook built as a [Quarto book](https://quarto.org/docs/books/).
 A lab group handbook is a document that conveys a lab's ethos, policies, and procedures to group members ([Tendler et al., 2023](https://doi.org/10.7554/eLife.88853)).
 Some of the content is University of Arizona specific (e.g. links in the code of conduct), but it is intended for use by anyone with any kind of lab group (or other group) to adopt!
 
@@ -37,6 +37,8 @@ You can watch the [video](https://img.youtube.com/vi/ad-1P11O5a4) or check out t
     Why every lab needs a handbook.
     eLife 12, e88853.
     <https://doi.org/10.7554/eLife.88853>
+
+There is a [growing list of open lab group handbooks](https://github.com/cct-datascience/open-lab-handbooks) that you can get inspiration from (with proper credit of course!)
 
 ## How to use this template
 
