@@ -2,11 +2,12 @@
 
 <!-- badges: start -->
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 <!-- badges: end -->
 
-This is a work-in-progress template for a lab group handbook much like the one described by [Tendler et al., 2023](https://doi.org/10.7554/eLife.88853).
+This repo provides a template for a wiki-like lab group handbook built with Quarto.
+A lab group handbook is a document that conveys a lab's ethos, policies, and procedures to group members ([Tendler et al., 2023](https://doi.org/10.7554/eLife.88853)).
 Some of the content is University of Arizona specific (e.g. links in the code of conduct), but it is intended for use by anyone with any kind of lab group (or other group) to adopt!
 
 ## Features
@@ -18,6 +19,13 @@ Some of the content is University of Arizona specific (e.g. links in the code of
 -   A "research best practices" page with our group's suggestions for creating reproducible research compendia
 -   A Code of Conduct with links to University of Arizona policies and reporting forms
 -   All the features of [Quarto](https://quarto.org/)!
+
+## Tutorial
+
+I ran a workshop on using this template at University of Arizona.
+You can watch the [video](https://img.youtube.com/vi/ad-1P11O5a4) or check out the [slides](https://cct-datascience.quarto.pub/creating-a-lab-group-handbook-with-quarto/#/title-slide).
+
+[![](https://img.youtube.com/vi/ad-1P11O5a4/0.jpg){fig-alt="Title slide reading \"Creating a Lab Group Handbook with Quarto / Eric R. Scott / 2024-08-28\"" fig-align="center"}](https://youtu.be/ad-1P11O5a4?si=lQh9TwT6ccMDfT6t)
 
 ## Inspiration
 
@@ -45,13 +53,23 @@ See [Get started with Quarto](https://quarto.org/docs/get-started/) and the [Qua
 
 ### Things to edit
 
--   Do a find and replace everywhere (cmd + shift + F in RStudio) for the following: "GROUP_NAME", "PI_NAME", and "PI_EMAIL".
+In `README.md`
 
--   Edit the `repo_url:` key in `_quarto.yml` to be the URL to *your* copy of this template on *your* GitHub organization or account
+-   Edit this to be about your book, rather than about how to use the template
 
--   Edit the authors information in `_quarto.yml` (e.g. name and ORCID)
+In `_quarto.yml`
+
+-   `book: title:`
+
+-   `book: repo-url:` should point to the GitHub repo of *your* copy of this template on *your* GitHub organization or account
+
+-   `book: author:` Edit the authors information in `_quarto.yml` (e.g. name and ORCID) and potentially add authors
 
 -   Potentially add, remove, or re-order chapters by editing the `chapters:` key in `_quarto.yml`
+
+In the various `.qmd` files
+
+-   Do a find and replace everywhere (cmd + shift + F in RStudio) for the following: "GROUP_NAME", "PI_NAME", and "PI_EMAIL".
 
 -   Red callout boxes titled "Group Edit" hold suggestions for what content to include on that page/section.
     These should be deleted once the edits happen.
@@ -60,13 +78,13 @@ See [Get started with Quarto](https://quarto.org/docs/get-started/) and the [Qua
 
 ### To preview
 
-In the terminal run `quarto preview` and it should open a live preview of your book in a browser window. 
+In the terminal run `quarto preview` and it should open a live preview of your book in a browser window.
 When you make changes and save them, this preview will update.
 
 ### To publish
 
 You only have to do this once.
 
-In the terminal, stop the `quarto preview` process if it is running, run `quarto render` and then `quarto publish gh-pages`. 
+In the terminal, stop the `quarto preview` process if it is running, run `quarto render` and then `quarto publish gh-pages`.
 When this is successful it should open up your book in your web browser.
 After this, the GitHub action included in `.github/` should automatically re-render and deploy your book when changes are pushed to the main branch on GitHub.
