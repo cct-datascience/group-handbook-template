@@ -1,6 +1,7 @@
 project:
   type: book
-  resources: robots.txt #this file prevents web crawlers from scraping your content for training AI/LLMs.  Downloaded from https://github.com/ai-robots-txt/ai.robots.txt v1.2.0
+  resources: 
+    - "robots.txt" # this file prevents web crawlers from scraping your content for training AI/LLMs.  Downloaded from https://github.com/ai-robots-txt/ai.robots.txt v1.2.0
 
 execute: 
   freeze: auto #only important if your book includes executed code
