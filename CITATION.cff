@@ -16,6 +16,9 @@ authors:
       University of Arizona, Communications & Cyber
       Technologies Data Science team
     orcid: 'https://orcid.org/0000-0002-7430-7879'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14502304
 repository-code: 'https://github.com/cct-datascience/group-handbook-template'
 keywords:
   - quarto
