@@ -78,6 +78,14 @@ In the various `.qmd` files
 
 -   **All text** in the `.qmd` documents is boilerplate or example text and intended to be edited to some extent to customize it for your group.
 
+`CITATION.cff`
+
+-   Remove this file or edit to refer to your book rather than this template repo.
+
+-   More on cff files: <https://citation-file-format.github.io/>
+
+-   On adding citation metadata to your book: <https://quarto.org/docs/reference/metadata/citation.html>
+
 ### To preview
 
 In the terminal run `quarto preview` and it should open a live preview of your book in a browser window.

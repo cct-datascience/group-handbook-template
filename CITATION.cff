@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Lab Group Handbook Template
+message: >-
+  If you use this template to create a lab handbook, just
+  delete this file or replace with your own.  If you want to
+  cite this work, please use this metadata.
+type: software
+authors:
+  - given-names: Eric R
+    family-names: Scott
+    email: ericrscott@arizona.edu
+    affiliation: >-
+      University of Arizona, Communications & Cyber
+      Technologies Data Science team
+    orcid: 'https://orcid.org/0000-0002-7430-7879'
+repository-code: 'https://github.com/cct-datascience/group-handbook-template'
+keywords:
+  - quarto
+  - group handbook
+  - lab handbook
+  - lab notebook
+license: CC-BY-4.0
+version: v0.1.0
